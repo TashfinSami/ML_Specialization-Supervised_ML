@@ -393,7 +393,7 @@ def compute_cost(X, y, w, b):
     cost = cost / (2 * m)
     return (np.squeeze(cost))
 
-
+# Loop version of multi-variable compute_gradient
 def compute_gradient(X, y, w, b):
     """
     Computes the gradient for linear regression
